@@ -10,3 +10,14 @@ Test steps:
 	3.Below the search box, select the type of results "News".
 Expected result: Page elements with the keyword "prowly", filtered by "News" category appear in the list of search results.
 Actual result: Page elements with the keyword "prowly", filtered by "News" category appear in the list of search results.
+
+2.
+Title: Checking google.com for "prowly" search, filtered by "Maps" category.
+Environment: Windows 10, Google Chrome Version 91.0.4472.106
+Initial execution conditions: Google search home page launched.
+Test steps:
+	1.Select the search browser area.
+	2.Enter "prowly" and click "Search on Google".
+	3.Below the search box, select the type of results "Maps".
+Expected result: A Google Map appears in the results list with the Prowly location marked in red.
+Actual result: A Google Map appears in the results list with the Prowly location marked in red.

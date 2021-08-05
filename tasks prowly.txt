@@ -35,7 +35,8 @@ Expected result: Page elements with the keyword "prowly", filtered by "Shopping"
 Actual result: The "Search for prowly on the internet instead" message appears.
 
 B
-1.Title: Checking google.com for "prowly" search, filtered by date "The last hour".
+1.
+Title: Checking google.com for "prowly" search, filtered by date "The last hour".
 Environment: Windows 10, Google Chrome Version 91.0.4472.106
 Initial execution conditions: Google search home page launched.
 Test steps:
@@ -45,3 +46,16 @@ Test steps:
 	4.Click the "Whenever" filter on the toolbar and select "The last hour".
 Expected result: Page elements with the keyword "prowly", filtered by "The last hour" appear in the list of search results.
 Actual result: Page elements with the keyword "prowly", filtered by "The last hour" appear in the list of search results.
+
+2.
+Title: Checking google.com for "prowly" search, filtered by date range "from 8/6/2021 down 8/7/2021".
+Environment: Windows 10, Google Chrome Version 91.0.4472.106
+Initial execution conditions: Google search home page launched.
+Test steps:
+	1.Select the search browser area.
+	2.Enter "prowly" and click "Search on Google".
+	3.Below the search box, select "Tools".
+	4.Click the "Whenever" filter on the toolbar and select "Date range".
+	5.Enter the range "from 8/6/2021 down 8/7/2021" and clik "Okay".
+Expected result: Page elements with the keyword "prowly", filtered by  date range " from 8/6/2021 down 8/7/2021" appear in the list of search results.
+Actual result: "The given phrase - the search in the internet instead message - has not been found. Reset your search tools" appears in the results list.
